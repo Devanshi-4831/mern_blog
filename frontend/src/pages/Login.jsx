@@ -32,7 +32,7 @@ const Login = () => {
     console.log(input);
 
     try {
-      const response = await axios.post(`http://localhost:8000/api/v1/user/login`, input, {
+      const response = await axios.post(`https://mern-blog-i2ok.onrender.com/user/login`, input, {
         headers: {
           "Content-Type": "application/json"
         },
